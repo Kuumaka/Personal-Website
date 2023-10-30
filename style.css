@@ -1,0 +1,277 @@
+body {
+    font-family: didot, serif;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqLlj3JZNf03zet0c7_rtKXBbi4Ez5SP2seQ&usqp=CAU");
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: cover;
+}
+
+footer {
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin {
+    width: 42px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.nav {
+    color: black;
+    font-size: 20px;
+    margin: 0px;
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    background-color: aqua;
+    overflow: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Home Page Home Page Home Page Home Page Home Page Home Page */
+
+.homeMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#homePic {
+    align-self: center;
+}
+
+.bio {
+    color: blue;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+} 
+
+.quote {
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    right: 15%;
+    padding: 6px 50px;
+    margin-right: 120px;
+}
+
+#resume {
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 35px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.homeHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* About Page About Page About Page About Page About Page */
+
+.strengths {
+    color: blue;
+}
+
+#strengthsP {
+    color: blue;
+    border-bottom: 1px solid;
+    border-color: black;
+}
+
+.sports {
+    color: blue;
+}
+
+#sportsPic {
+    background-color: bisque;
+    border: 2px solid gray;
+}
+
+#sportsHeader {
+    color: blue;
+    font-style: italic;
+    font-weight: 600;
+}
+
+#sportsP {
+    color: blue;
+}
+
+.cinema {
+    color: blue;
+    border-top: 10px solid;
+    border-color: black;
+}
+
+#cinemaPic {
+    background-color: bisque;
+    border: 2px solid gray;
+}
+
+#cinemaHeader {
+    color: blue;
+    font-style: italic;
+    font-weight: 600;
+}
+
+#cinemaP {
+    color: blue;
+}
+
+.music {
+    color: blue;
+    border-top: 10px solid;
+    border-color: black;
+}
+
+#musicPic {
+    background-color: bisque;
+    border: 2px solid gray;
+}
+
+#musicHeader {
+    color: blue;
+    font-style: italic;
+    font-weight: 600;
+}
+
+#musicP {
+    color: blue;
+}
+
+/* Portfolio Page Portfolio Page Portfolio Page Portfolio Page */
+
+.portMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.proj1 {
+    color: blue;
+    background-color: #ee00ff;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    border-radius: 8px;
+}
+
+#proj1pic {
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#proj1Header {
+    color: yellow;
+}
+
+#proj1p {
+    color: blue;
+}
+
+.proj2 {
+    color: blue;
+    background-color: red;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    border-radius: 8px;
+}
+
+#proj2pic {
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#proj2Header {
+    color: yellow;
+    
+}
+
+#proj2p {
+    color: blue;
+}
+
+.proj3 {
+    color: blue;
+    background-color: green;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center; 
+    float: left;
+    border-radius: 8px;
+}
+
+#proj3pic {
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#proj3Header {
+    color: yellow;
+}
+
+#proj3p {
+    color: blue;
+}
