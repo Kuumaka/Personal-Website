@@ -15,38 +15,68 @@
         <a href="contact.html">Contact</a>
     </nav>
 
-    <form>
-        <p class="form description">Get in touch with me!</p>
-        <label for="">First Name</label>
-        <input type="" value="">
+    <header>
+        <p id="form_description">Get in touch with me!</p>
+    </header>
 
-        <label for="">Last Name</label>
-        <input type="" value="">
+    <main class="contact_main">
+        <section>
+            <form class="contact_form">
+                <label for="">First Name:</label>
+                <input type="" value="">
 
-        <label for="">Pronouns</label>
-        <input type="" value="">
+                <label for="">Last Name:</label>
+                <input type="" value="">
 
-        <label for="">Email</label>
-        <input type="" value="">
+                <label for="">Pronouns:</label>
+                <input type="" value="">
 
-        <label for="">Phone Number</label>
-        <input type="" value="">
+                <label for="">Email:</label>
+                <input type="" value="">
 
-        <label for="">Preferred Method of Contact</label>
-        <input type="" value="">
-        
-        <label for="">When would you like me to reach out?</label>
-        <input type="" value="">
+                <label for="">Phone Number:</label>
+                <input type="number" value="">
+            </form>
 
-        <label for="">Project of Interest</label>
-        <input type="" value="">
+        <div>
+            <form>
+                <label for="">Preferred Method of Contact:</label>
+                <input type="radio" value="">
+                </form>
+                <form>
+                <label for="">When would you like me to reach out?</label>
+                <input type="radio" value="">
+                </form>
+                <form>
+                <label for="">Project of Interest:</label>
+                <input type="radio" value="">
+            </form>
+        </div>        
+        </section>
+        <section>
+            <form class="form_message">
+                <label for="">Message:</label>
+                <input type="text" value="...">
+            </form>
+        </section>
+    </main>
 
-        <label for="">Message</label>
-        <input type="" value="">
-    </form>
+    <div>
+        <form class="submission" action="submission.html">
+            <input type="submit" value="Submit"/>
+        </form>
+    </div>
 
-    <form class="submission" action="submission.html">
-        <input type="submit" value="Submit"/>
-    </form>
+    <footer>
+        <a href="https://www.linkedin.com/in/cody-morales/">
+            <img class="linkedin" src="https://pbs.twimg.com/profile_images/1661161645857710081/6WtDIesg_400x400.png" alt="LinkedIn">
+        </a>
+    </footer>
 </body>
 </html>
+
+
+<!-- 
+    Use at least one of the following selectors: media queries, nth selectors, !important, hierarchical selectors
+    Use at least one of the following rules: box-sizing, backgrounds, DOM ordering, z-index, transitions, calc, common shorthands
+ -->
